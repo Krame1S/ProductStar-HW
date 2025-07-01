@@ -1,5 +1,5 @@
 from typing import List, Optional
-from model.order import Order
+from app.model.order import Order
 
 _orders: List[Order] = []
 

@@ -1,6 +1,6 @@
 from typing import List, Optional
 
-from model.product import Product
+from app.model.product import Product
 
 
 _products: List[Product] = [
