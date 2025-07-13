@@ -1,0 +1,44 @@
+[tool.poetry]
+name = "mlbcountswebapp"
+version = "0.1.0"
+description = ""
+authors = ["Ilya <iliaha2005@gmail.com>"]
+readme = "README.md"
+
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flask = ">=3.1.0"
+gspread = ">=6.1.4"
+gunicorn = ">=23.0.0"
+pandas = ">=2.2.3"
+pymongo = ">=4.10.1"
+requests = ">=2.32.3"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.12.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 88
+target-version = "py312"
+src = ["."]
+lint.select = [
+    "E", # pycodestyle errors
+    "F", # pyflakes (finds obvious errors)
+    "I", # isort (import sort)
+    "W", # pycodestyle warnings
+    "B", # flake8-bugbear (finds likely bugs)
+]
+lint.fixable = ["ALL"]
+lint.unfixable = []
+exclude = [".git", ".venv", "venv", "__pycache__"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
+line-ending = "auto"
