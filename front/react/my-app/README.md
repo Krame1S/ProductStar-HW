@@ -1,3 +1,13 @@
+# Dice Rolling App
+
+## Screenshot
+
+![Dice Rolling App Screenshot](./screenshots/screenshot.png)
+
+A simple React single-page application that simulates rolling a dice. Click the "Roll Dice" button to display a random dice face (1-6) using local images.
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
