@@ -1,4 +1,4 @@
-.Gallery {
+.Dice {
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -6,17 +6,17 @@
   align-items: center;
 }
 
-.Gallery__list {
+.Dice__container {
   display: flex;
   justify-content: center;
 }
 
-.Gallery__photo {
+.Dice__image {
   width: 200px;
   height: 200px;
 }
 
-.Gallery__title {
+.Dice__title {
   position: absolute;
   top: 20px;
   font-size: 68px;
@@ -26,11 +26,11 @@
   width: 100%;
 }
 
-.Gallery__buttons {
+.Dice__button {
   margin-top: 20px;
 }
 
-.Gallery__buttons button {
+.Dice__button button {
   padding: 10px 20px;
   font-size: 16px;
   background-color: #4CAF50;
@@ -40,6 +40,6 @@
   transition: background-color 0.8s;
 }
 
-.Gallery__buttons button:hover {
+.Dice__button button:hover {
   background-color: #458fa0;
 }

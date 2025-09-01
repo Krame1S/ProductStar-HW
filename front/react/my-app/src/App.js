@@ -1,5 +1,5 @@
 import './App.css';
-import Gallery from './components/Gallery';
+import Gallery from './components/Dice';
 import { useState } from 'react';
 
 function App() {
